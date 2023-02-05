@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Projects & Skills</title>
+    <link rel="stylesheet" href="style.css">
+   
+    <link rel="stylesheet" href="navbar/style.css">
+    
+</head>
+<body>
+    <nav class="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="#skill">Skills</a></li>
+            
+        </ul>
+    </nav>
+    <div class="sidebar">
+        <img src="img/Ellipse 1.png" class="logo" >
+        <p>Alina Rai</p>
+    </div>
+    <div class="contact">
+    <div class="bar">
+        <div class="bar2">
+            <h1>Projects & Skills</h1>
+            <div class="flexer">
+                <p class="home"><a href="index.html" >Home</p></a> <img src="img/Arrow.png" class="arrow"> <p class="home1"><a href="project.html" >Projects</p></a><img src="img/Arrow.png" class="arrow1"> <p class="skill"><a href="#skill" >Skills</a></p>
+    
+            </div>
+        </div>
+    </div>
+    <div class="project">
+        <span class="some">Some of My</span> &nbsp; <span class="recent">Recent Works</span>
+        <div class="inner_project">
+            
+            <div class="online">
+                <img src="img/course.png" class="course_img">
+                <div class="outer_course">
+                    <div class="course">
+                        <span>Online Course Registration</span>
+                        <p>Web-based application in PHP that has more than 50 courses to registered.<span id="learn" onclick="myFunction()">Learn More --></span></p> 
+                     
+                        <div id="more"></div>
+                         
+                    </div>
+                </div>  
+            </div>
+            <script>
+                var show = true;
+                function myFunction() {
+                var data = "<div class='more2'><p class='more1'>An online registration system was developed where a student can register himself. The registration form has been designed to be user friendly and easy to fill and hence leads to saving of time and money as compared to multiple forms filled manually by the students. This system maintain a course registration database which allow the student to view the course details. </p></div>";
+            
+                if(show){  
+                document.getElementById("more").innerHTML=data;  
+                show=false;  
+                }else{  
+                document.getElementById("more").innerHTML="";  
+                show=true;  
+                } 
+                }
+            </script>
+            <div class="ecom">
+                <img src="img/ecommerce.png" class="ecom_img">
+                <div class="outer_ecommerce">
+                    <div class="ecommerce">
+                        <span>Ecommerce Website</span>
+                        <p>Interactive ecommerce websites in PHP that has many products.<span id="learn" onclick="myFunction1()">Learn More --></span></p>
+                        <div id="ecom_func"></div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                var show1 = true;
+                function myFunction1() {
+                var data1 = "<div class='more2'><p class='more1'> An online store is a virtual store on the Internet where customers can browse the catalog and select products of interest. The selected items may be collected in a shopping cart. At checkout time, the items in the shopping cart will be presented as an order. At that time, more information will be needed to complete the transaction.</p></div>";
+            
+                if(show1){  
+                document.getElementById("ecom_func").innerHTML=data1;  
+                show1=false;  
+                }else{  
+                document.getElementById("ecom_func").innerHTML="";  
+                show1=true;  
+                } 
+                }
+            </script>
+            <div class="book">
+                <img src="img/book.png" class="book_img">
+                <div class="outer_bookstore">
+                    <div class="bookstore">
+                        <span>Online Book Store</span>
+                        <p> web-based application in PHP that has books to sale and buy through online.<span id="learn" onclick="myFunction2()">Learn More --></span></p>
+                        <div id="book_func"></div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                var show2 = true;
+                function myFunction2() {
+                var data2 = "<div class='more2'><p class='more1'> Online Book store is an online web application where the customer can purchase books online. Through a web browser the customers can search for a book by its title or author, later can add to the shopping cart and finally purchase using credit card transaction. he user can login using his account details or new customers can set up an account very quickly.  </p></div>";
+            
+                if(show2){  
+                document.getElementById("book_func").innerHTML=data2;  
+                show2=false;  
+                }else{  
+                document.getElementById("book_func").innerHTML="";  
+                show2=true;  
+                } 
+                }
+            </script>
+
+        </div>
+    </div>
+    <div class="myskill" id="skill">
+        <div class="software">
+           <span class="soft">Software</span> &nbsp; <span class="skil">Skill</span>
+           <div class="photoshop">
+                <img src="img/ps.png" class="ps">
+                <div class="square">
+                    <div class="one"></div>
+                    <div class="two2"></div>
+                    <div class="three" style="background-color: #D9D9D9;"></div>
+                    <div class="four" style="background-color: #D9D9D9;"></div>
+                    <div class="five" style="background-color: #D9D9D9;"></div>
+                </div>
+            </div>
+               <div class="figma">
+                   <img src="img/figma.png" class="fig">
+                   <div class="square">
+                        <div class="one"></div>
+                        <div class="two2"></div>
+                        <div class="three" ></div>
+                        <div class="four" style="background-color: #D9D9D9;"></div>
+                        <div class="five" style="background-color: #D9D9D9;" ></div>
+                    </div>
+                </div>
+        </div>
+        <div class="programming">
+            <span class="program">Programing</span> &nbsp;<span class="skil1">Skill</span>
+            <div class="html">
+                <p>HTML/CSS</p>
+                <div class="square1" >
+                    <div class="one"></div>
+                    <div class="two2"></div>
+                    <div class="three" ></div>
+                    <div class="four" ></div>
+                    <div class="five" style="background-color: #D9D9D9;"></div>
+                </div>
+
+            </div>
+            <div class="js">
+                <p>JavaScript</p>
+                <div class="square1" >
+                    <div class="one"></div>
+                    <div class="two2"></div>
+                    <div class="three" style="background-color: #D9D9D9;"></div>
+                    <div class="four" style="background-color: #D9D9D9;"></div>
+                    <div class="five" style="background-color: #D9D9D9;"></div>
+                </div>
+
+            </div>
+            <div class="phpp">
+                <p>PHP</p>
+                <div class="square1" >
+                    <div class="one"></div>
+                    <div class="two2"></div>
+                    <div class="three" ></div>
+                    <div class="four" style="background-color: #D9D9D9;"></div>
+                    <div class="five" style="background-color: #D9D9D9;"></div>
+                </div>
+
+            </div>
+            <div class="java">
+                <p>Java</p>
+                <div class="square1" >
+                    <div class="one"></div>
+                    <div class="two2" style="background-color: #D9D9D9;"></div>
+                    <div class="three" style="background-color: #D9D9D9;"></div>
+                    <div class="four" style="background-color: #D9D9D9;"></div>
+                    <div class="five" style="background-color: #D9D9D9;"></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="analouge">
+            <span class="analog">Analouge</span>&nbsp; <span class="skil2">Skill</span>
+            <div class="sk">
+                <p>Sketching</p>
+                <div class="square1" >
+                    <div class="one"></div>
+                    <div class="two2"></div>
+                    <div class="three" ></div>
+                    <div class="four" style="background-color: #D9D9D9;"></div>
+                    <div class="five" style="background-color: #D9D9D9;"></div>
+                </div>
+
+            </div>
+            <div class="rs">
+                <p>Reasearch</p>
+                <div class="square1" >
+                    <div class="one"></div>
+                    <div class="two2"></div>
+                    <div class="three" ></div>
+                    <div class="four" ></div>
+                    <div class="five" style="background-color: #D9D9D9;"></div>
+                </div>
+
+            </div>
+            <div class="user">
+                <p>User Analyst</p>
+                <div class="square1" >
+                    <div class="one"></div>
+                    <div class="two2"></div>
+                    <div class="three" style="background-color: #D9D9D9;"></div>
+                    <div class="four" style="background-color: #D9D9D9;"></div>
+                    <div class="five" style="background-color: #D9D9D9;"></div>
+                </div>
+
+            </div>
+            <div class="dm">
+                <p>Decision Making</p>
+                <div class="square1" >
+                    <div class="one"></div>
+                    <div class="two2"></div>
+                    <div class="three" ></div>
+                    <div class="four" style="background-color: #D9D9D9;"></div>
+                    <div class="five" style="background-color: #D9D9D9;"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="myinterest">
+        <p class="inter">Interest</p>
+        <div class="interest"> 
+            <div class="first_row">
+                <div class="first_col">
+                    <img src="img/reading.png" class="read"> <span>Reading</span>
+                    <div class="square2" >
+                        <div class="one"></div>
+                        <div class="two2"></div>
+                        <div class="three" ></div>
+                        <div class="four" ></div>
+                        <div class="five" style="background-color: #D9D9D9;"></div>
+                    </div>
+                    <div class="second_col">
+                        <img src="img/writing.png" class="write"> <span>Writing</span>
+                        <div class="square2" >
+                            <div class="one"></div>
+                            <div class="two2"></div>
+                            <div class="three" ></div>
+                            <div class="four"></div>
+                            <div class="five" style="background-color: #D9D9D9;"></div>
+                        </div>
+                    </div>
+                    <div class="third_col">
+                        <img src="img/volleyball.png" class="volley"> <span>Volleyball</span>
+                        <div class="square2" >
+                            <div class="one"></div>
+                            <div class="two2"></div>
+                            <div class="three" ></div>
+                            <div class="four" style="background-color: #D9D9D9;"></div>
+                            <div class="five" style="background-color: #D9D9D9;"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="second_row">
+                <div class="f_col">
+                    <img src="img/music.png" class="music"> <span>Music</span>
+                    <div class="square2" >
+                        <div class="one"></div>
+                        <div class="two2"></div>
+                        <div class="three" ></div>
+                        <div class="four" ></div>
+                        <div class="five" ></div>
+                    </div>
+                    <div class="s_col">
+                        <img src="img/photography.png" class="graph"> <span>Photography</span>
+                        <div class="square2" >
+                            <div class="one"></div>
+                            <div class="two2"></div>
+                            <div class="three" ></div>
+                            <div class="four"></div>
+                            <div class="five" style="background-color: #D9D9D9;"></div>
+                        </div>
+                    </div>
+                    <div class="t_col">
+                        <img src="img/cycling.png" class="cycling"> <span>Cycling</span>
+                        <div class="square2" >
+                            <div class="one"></div>
+                            <div class="two2"></div>
+                            <div class="three" ></div>
+                            <div class="four" style="background-color: #D9D9D9;"></div>
+                            <div class="five" style="background-color: #D9D9D9;"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="card">
+      
+        <div class="innercard">
+            <div class="hours">
+                <img src="img/clock.png" class="clock">
+                <div class="vertical"></div>
+                <div class="combine">
+                    <span>400</span>
+                    <p>Hours Worked</p>
+                </div>
+            </div>
+            <div class="proj">
+                <img src="img/project.png" class="pro">
+                <div class="vertical"></div>
+                <div class="combine1">
+                    <span>100+</span>
+                    <p>Project Finished</p>
+                </div>
+            </div>
+            <div class="happy">
+                <img src="img/happy.png" class="client">
+                <div class="vertical"></div>
+                <div class="combine2">
+                    <span>200+</span>
+                    <p>Happy Clients</p>
+                </div>
+            </div>
+            <div class="coffee">
+                <img src="img/coffee.png" class="drank">
+                <div class="vertical"></div>
+                <div class="combine3">
+                    <span>1K</span>
+                    <p>Coffee Drank</p>
+                </div>
+            </div>
+       </div>
+       
+    </div>
+    <div class="footer" style="margin-top: 30px;">
+        <div class="flex">
+            <div class="first_letter">A</div>
+                <div>
+                    <p class="rem_name">LINA</p>
+                    <p class="front">Frontend Developer</p>
+                </div>
+            </div>
+       
+        <nav class="foot">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+                <li><a href="project.html">Works</a></li>
+            </ul>
+        </nav>
+        <div>
+            <p class="follow">Follow Me</p>
+            <div class="foot_icon">
+         
+                <ul class="icon">
+                    <li><a href="http://facebook.com"><img src="img/facebook.png" class="fb"></a></li>
+                    <li><a href="http://instagram.com"><img src="img/instagram1.png" class="ist"></a></li>
+                    <li><a href="http://twitter.com"><img src="img/twitter.png" class="twt"></a></li>
+                </ul>
+           </div>
+    
+        </div>
+        <div class="last">
+            <img src="img/copy.png" class="copy"> <p class="right">Alina. All Right Reserved</p>
+    
+        </div>
+       </div>
+</body>
+</html>
